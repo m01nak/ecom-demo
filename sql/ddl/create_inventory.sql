@@ -2,7 +2,7 @@
 -- Creating table "inventory" in "main" schema the database --
 --------------------------------------------------------------
 
-create table inventory (
+create table main.inventory (
 	product_id int not null,
 	product_count int,
 	check (product_count >= 0),

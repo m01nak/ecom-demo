@@ -2,7 +2,7 @@
 -- Creating table "users" in "main" schema the database --
 ----------------------------------------------------------
 
-create table users (
+create table main.users (
 	user_id int not null primary key auto_increment,
     user_email varchar(320) not null,
     user_phone varchar(10),

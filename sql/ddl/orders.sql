@@ -2,7 +2,7 @@
 -- Creating table "orders" in "main" schema the database --
 -----------------------------------------------------------
 
-create table orders (
+create table main.orders (
 	order_id int not null auto_increment,
     user_id int not null,
     order_created_dtm timestamp not null default now(),
