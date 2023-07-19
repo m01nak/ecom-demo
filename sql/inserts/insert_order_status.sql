@@ -1,0 +1,15 @@
+insert into main.order_status (order_status,status_description) values ('order_status','status_description');
+insert into main.order_status (order_status,status_description) values ('delayed','Order is delayed');
+insert into main.order_status (order_status,status_description) values ('delivered','Order is delivered');
+insert into main.order_status (order_status,status_description) values ('in_transit','Order is in transit');
+insert into main.order_status (order_status,status_description) values ('new','order_created');
+insert into main.order_status (order_status,status_description) values ('out_for_delivery','Order is out for delivery');
+insert into main.order_status (order_status,status_description) values ('packing','Order is being packed');
+insert into main.order_status (order_status,status_description) values ('refund_requested','Refund has been requested');
+insert into main.order_status (order_status,status_description) values ('refunded','Refund completed');
+insert into main.order_status (order_status,status_description) values ('refunded_raised','Refund has been initiated');
+insert into main.order_status (order_status,status_description) values ('return_raised','Refund is raised for order');
+insert into main.order_status (order_status,status_description) values ('returned','Return has reached');
+insert into main.order_status (order_status,status_description) values ('returning','Return in progress');
+insert into main.order_status (order_status,status_description) values ('shipped','Order has been shipped');
+commit;
