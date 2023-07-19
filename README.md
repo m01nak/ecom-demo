@@ -17,7 +17,7 @@ This is a demo Spring Boot project for ecom management backend
     - [ ] Change user's last name
     - [ ] Change user's email id
     - [ ] Change user's phone number 
-    - [ ] Change users's password
+    - [ ] Change user's password
   -  [ ] Remove User
   - [ ] Show user details
 
@@ -28,8 +28,8 @@ This is a demo Spring Boot project for ecom management backend
   - [ ] Apply discount
   - [ ] Remove product
   - [ ] Show product details
-  - [ ] Show inventory for single product
-  - [ ] Show inventory for all products
+  - [x] Show inventory for single product
+  - [x] Show inventory for all products
 
 - ### Order Management
   - [ ] Accept order
