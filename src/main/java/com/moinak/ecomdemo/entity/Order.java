@@ -15,7 +15,6 @@ import java.util.Date;
 @AllArgsConstructor
 @Entity
 public class Order {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     long orderId;
@@ -23,5 +22,4 @@ public class Order {
     Date orderCreatedDtm;
     Date orderClosedDtm;
     String orderStatus;
-
 }

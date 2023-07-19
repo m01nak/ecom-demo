@@ -10,9 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class ItemisedOrder {
-
+    long itemisedOrderId;
     long orderId;
     long productId;
     long product_quantity;
-
 }

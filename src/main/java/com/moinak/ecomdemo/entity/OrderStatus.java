@@ -11,9 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class OrderStatus {
-
     @Id
     String orderStatus;
     String description;
-
 }

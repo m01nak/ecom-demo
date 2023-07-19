@@ -11,7 +11,6 @@ import org.springframework.data.annotation.Id;
 @AllArgsConstructor
 @Entity
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     long userId;
@@ -22,5 +21,4 @@ public class User {
     String userFirstName;
     String userLastName;
     String userPassword;
-
 }

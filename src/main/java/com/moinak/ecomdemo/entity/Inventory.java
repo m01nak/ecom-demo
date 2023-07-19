@@ -11,9 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class Inventory {
-
     @Id
     long productId;
     int productCount;
-
 }

@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class Product {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     long productId;
@@ -18,5 +17,4 @@ public class Product {
     String productName;
     double productMrp;
     double discount;
-
 }
