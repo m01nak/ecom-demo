@@ -8,7 +8,7 @@ This is a demo Spring Boot project for ecom management backend
 ## Capabilities
 
 - ### User Management
-  -[ ] Add user
+  - [ ] Add user
   - [ ] Validate user
   - [ ] Edit user
     - [ ] Change user's first name 
@@ -38,14 +38,11 @@ This is a demo Spring Boot project for ecom management backend
 
 ## Database Schema
 
-> ## main
-> ### Tables
-> 1. user
-> 2. product
-> 3. order_status
-> 4. inventory
-> 5. order
-> 6. itemised_order~~~~
-
-
-
+## main
+### Tables
+1. user
+2. product
+3. order_status
+4. inventory
+5. order
+6. itemised_order
