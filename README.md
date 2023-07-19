@@ -31,7 +31,7 @@ This is a demo Spring Boot project for ecom management backend
   - [ ] Show inventory for single product
   - [ ] Show inventory for all products
 
- - ### Order Management
+- ### Order Management
   - [ ] Accept order
   - [ ] Reject order
   - [ ] Update order status
