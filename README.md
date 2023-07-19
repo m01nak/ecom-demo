@@ -5,6 +5,8 @@ This is a demo Spring Boot project for ecom management backend
 
 ---
 
+---
+
 ## Capabilities
 
 - ### User Management
@@ -35,6 +37,7 @@ This is a demo Spring Boot project for ecom management backend
   - [ ] Update order status
   - [ ] Show order details
 
+---
 
 ## Database Schema
 
