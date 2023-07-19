@@ -1,6 +1,6 @@
--------------------------------------------------------------
--- Creating table "products" in "main" schema the database --
--------------------------------------------------------------
+------------------------------------------------------------
+-- Creating table "product" in "main" schema the database --
+------------------------------------------------------------
 
 create table main.product (
     product_id int not null auto_increment,

@@ -1,6 +1,6 @@
-----------------------------------------------------------
--- Creating table "users" in "main" schema the database --
-----------------------------------------------------------
+---------------------------------------------------------
+-- Creating table "user" in "main" schema the database --
+---------------------------------------------------------
 
 create table main.user (
 	user_id int not null primary key auto_increment,

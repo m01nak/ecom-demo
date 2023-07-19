@@ -7,5 +7,5 @@ create table main.inventory (
 	product_count int,
 	check (product_count >= 0),
 	primary key (product_id),
-	foreign key (product_id) references products(product_id)
+	foreign key (product_id) references product(product_id)
 );

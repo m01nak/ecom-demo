@@ -8,6 +8,5 @@ import java.util.List;
 public interface ItemisedOrderRepository extends JpaRepository<ItemisedOrder,Long> {
     public ItemisedOrder findByItemisedOrderId(long itemisedOrderId);
     public List<ItemisedOrder> findByOrderId(long orderId);
-    public List<ItemisedOrder> findByUserId(long userId);
     public List<ItemisedOrder> findByProductId(long productId);
 }
